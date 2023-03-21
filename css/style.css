@@ -1,0 +1,662 @@
+/* ----------- CSS  de Augustin Eloy ----------*/
+/*......*/
+
+/* VERSION DESKTOP */
+/* Param : 1400px */
+
+@media (min-width:992px) and (max-width: 1400px) {
+
+	/*Header*/
+	.container{
+		padding: 0 15px 0 15px;
+		margin-left: auto;
+		margin-right: auto;
+		
+		
+	}
+	body{
+		font-family: 'Raleway', sans-serif;
+
+	}
+	.logo{
+		height: 40px;
+	}
+	a{
+		text-decoration: none;
+		color: black;
+	}
+	nav{
+		height: 74px;
+		display: flex;
+		justify-content: space-between ;
+		align-items: center;
+	}
+	.navbarH:hover{
+		border-top: #0065FC 3px solid;
+		
+	}
+	.navbarA:hover{
+		border-top: #0065FC 3px solid;
+	}
+	.link:hover{
+		color: #0065FC;
+	}
+
+
+	}
+    .navBar{
+		width: 30%;
+		display: flex;
+		
+	}
+	.navbarH{
+		display: flex;
+		width: 50%;
+		justify-content: center;
+		align-items: end;
+
+
+
+	}
+	.navbarA{
+		display: flex;
+		width: 50%;
+		justify-content: center;
+		align-items: end;
+
+	}
+	.link{
+		margin-top: 40px;
+	}
+	/*main*/
+	h1{
+		font-size: 19px;
+	}
+	p{
+		font-size: 12px;
+	}
+
+	#research_input{
+		border: none;
+		height: 43px;
+		width: 120px;
+	}
+	#research{
+		display: flex;
+		height: 45px;
+		margin-top: 15px;
+	}
+	#button_research{
+		background-color: #0065FC;
+		color: white;
+		font-weight: bold ;
+		border-top-right-radius: 8px ;
+		border-bottom-right-radius: 8px ;
+		border: none;
+		width: 8% ;
+	}
+	#icon{
+		width: 45px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 8px 0 0 8px;
+		background-color: #F2F2F2;
+	}
+
+
+
+	.filters{
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 15px;
+
+	}
+	.filtersTitle{
+		margin-right: 30px;
+
+	}
+	.icon{
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+	.buttons{
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	
+	
+	.button{
+		background-color:rgba(255, 255, 255, 0);
+		border: 1px solid grey;
+		color: black;
+		padding: 0.7rem;
+		font-size: 17px;
+		font-weight: 700;
+		line-height: 17px;
+		text-decoration: none;
+		text-align: center;
+		display: flex;
+		margin: 13px;
+		border-radius: 25px;
+	}
+	.button:hover{
+		background-color: #deebff;
+	}
+	.section_ham h2{
+		margin-left: 30px;
+		padding-top: 10px;
+	}
+	.section_ham h4{
+		margin: 0px 0px 60px 40px
+	}
+	.card img{
+		width: 230px ;
+		height: 115px;
+		border-radius: 20px 20px 0px 0px;	
+		display: flex;
+		justify-content: center;
+		margin: auto;
+		padding-top: 3px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	.card{
+		display: block;
+		background-color:  white;
+		Width: 245px;
+		Height: 199px;
+		border-radius:20px;
+		margin: 30px;
+		line-height: 6px;
+		box-shadow:5px 5px 5px #d9d9d9;
+		
+	}
+
+	.card h3{
+		font-size: 16px;
+	}
+	.card_text{
+		margin-left: 7px;
+	}
+	.section_ham{
+		background-color: #f2f2f2;
+		Width: 870px;
+		Height:636px;
+		border-radius:20px;
+	}
+	.section_lpp{
+		background-color: #f2f2f2;
+		Width: 390px;
+		height: 635px;
+		border-radius:20px;
+	}
+	.section_both{
+		display: flex;
+		justify-content: space-between;
+	
+	}
+	
+	
+	a{
+		text-decoration: none;
+		color: black;
+	}
+	.cards{
+		display: flex;
+		justify-content: space-around;
+	}
+	.section_lpp h2{
+		margin-left: 30px;
+		margin-top: 20px;
+	}
+	.card_lpp{
+		display: flex;
+		background-color:  white;
+		Width: 339px;
+		Height: 140px;
+		border-radius:20px;
+		margin: 30px;
+		line-height: 6px;
+		box-shadow:5px 5px 5px #d9d9d9;
+	}
+	.card_lpp img{
+		width: 139px ;
+		height: 139px ;
+		border-radius: 20px 0px 0px 20px;
+		padding-left: 3px;
+		padding-top:  3px; 
+		padding-bottom: 3px;
+
+	}
+	.card_text_lpp h3{
+		font-size: 16px;
+		line-height: 19px;
+
+	}
+	.card_text_lpp{
+		margin-left: 19px;
+	}
+	.card_icon{
+		padding-top: 20px;
+	}
+	.card_a{
+		background-color: white;
+		border-radius: 20px;
+		width: 302px;
+		height: 445px;
+		box-shadow:5px 5px 5px #d9d9d9;
+	}
+	 .card_a img{
+		width: 302px;
+		height: 400px ;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+
+	 }
+	
+	 .cards_a{
+		display: flex;
+		justify-content: space-around;
+		margin-bottom: 60px;
+	 }
+	
+	.cards_a h3{
+		padding-left: 10px;
+		margin-top: 10px;
+
+	}
+	.mainbackgroundcolor{
+		background-color: #F2F2F2;
+		width: 100%;
+
+	}
+	i{
+		color: #0065FC;
+	}
+	#research i{
+		color: black;
+	}
+	/* FOOTER*/
+	 footer {
+		background-color:#F2F2F2;
+		width: 100%;
+	
+
+	} 
+
+	.footercolumn{
+		display: flex;
+		max-width: 100%;
+		width: 1440px;
+		margin: auto;
+		box-sizing: border-box;
+		flex-direction: row;
+		justify-content: space-around;
+		font-family: 'Raleway', sans-serif;
+		line-height:20pt;
+	}
+
+	li{
+		list-style-type: none;
+	}
+
+
+
+/*Tablette*/
+
+
+@media (min-width:768px) and ( max-width:992px){
+	.container{
+		padding: 0 15px 0 15px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.logo{
+		height: 20px;
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+	.buttons{
+		display: flex;
+	}
+	.section_both{
+		display: block;
+		
+	
+	}
+	.section_both h2{
+		padding-left: 20px;
+		padding-top: 20px;
+		font-size: 22px;
+	}
+	.section_ham h4{
+		margin: 0px 0px 40px 40px
+	}
+	.section_lpp{
+		background-color: #f2f2f2;
+		Width: 883px;
+		height: 278px;
+		border-radius:20px;
+		margin-top: 50px;
+	}
+	
+	.cards_lpp{
+		display: flex;
+		justify-content: space-around;
+		
+	}
+	.card_lpp{
+		display: flex;
+		background-color:  white;
+		Width: 252px;
+		Height: 144px;
+		border-radius:20px;
+		margin: 10px;
+		line-height: 6px;
+		box-shadow:5px 5px 5px #d9d9d9;
+	}
+	.card_lpp img{
+		width: 106px ;
+		height: 139px ;
+		border-radius: 20px 0px 0px 20px;
+		padding-left: 3px;
+		padding-top:  3px; 
+		padding-bottom: 3px;
+
+	}
+	.card_text_lpp h3{
+		font-size: 16px;
+		line-height: 19px;
+
+	}
+	.card_text_lpp{
+		margin-left: 12px;
+	}
+	.card_icon{
+		padding-top: 20px;
+		font-size: 10px;
+	}
+	.card img{
+		width: 230px ;
+		height: 115px;
+		border-radius: 20px 20px 0px 0px;	
+		display: flex;
+		justify-content: center;
+		margin: auto;
+		padding-top: 3px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	.card{
+		display: block;
+		background-color:  white;
+		Width: 245px;
+		Height: 199px;
+		border-radius:20px;
+		margin: 30px;
+		line-height: 6px;
+		box-shadow:5px 5px 5px #d9d9d9;
+	}
+	.carte_icone{
+		font-size: 10px;
+	}
+	.card_text{
+		margin-left: 10px;
+	}
+	.card_a{
+		background-color: white;
+		border-radius: 20px;
+		width: 182px;
+		height: 267px;
+		box-shadow:5px 5px 5px #d9d9d9;
+	}
+	 .card_a img{
+		width: 182px;
+		height: 220px ;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+
+	 }
+	 .card_a h3{
+		font-size: 15px;
+	 }
+
+	footer {
+		background-color:#F2F2F2;
+		width: 100%;
+		
+	} 
+
+	.footercolumn{
+		display: flex;
+		max-width: 100%;
+		width: 992px;
+		padding-right: 3rem;
+		box-sizing: border-box;
+		flex-direction: row;
+		justify-content: space-around;
+		font-family: 'Raleway', sans-serif;
+		line-height:18pt;
+	}
+
+	li{
+		list-style-type: none;
+	}
+
+		
+}
+li{
+	list-style-type: none;
+}
+
+
+/*telephone*/
+
+@media (max-width:768px){
+	.container{
+		margin: 0;
+	}
+	.logo{
+		
+		margin-left: 45%;
+		margin-right: 45%;
+		height: 30px;
+	}
+	#research_input{
+		border: none;
+		height: 43px;
+		width: 120px;
+	}
+	#research{
+		display: flex;
+		height: 45px;
+		margin-top: 15px;
+	}
+	#button_research{
+		background-color: #0065FC;
+		color: white;
+		font-weight: bold ;
+		border-top-right-radius: 8px ;
+		border-bottom-right-radius: 8px ;
+		border: none;
+		width: 8% ;
+	}
+	#icon{
+		width: 45px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 8px 0 0 8px;
+		background-color: #F2F2F2;
+	}
+	.navBar{
+		display: flex;
+		justify-content: flex-start;
+		width: 100%;
+	}
+	.navbarA:hover{
+		border-bottom: #0065FC 3px solid;
+	}
+	.navbarH:hover{
+		border-bottom: #0065FC 3px solid;
+	}
+	.link:hover{
+		color: #0065FC ;
+	}
+	.link{
+		margin-bottom: 20px;
+	}
+	.buttons{
+		margin-left: 5px;
+		
+	}
+	.button{
+		width: 149px;
+		height: 20px;
+		padding-left: 2px;
+		font-size: 13px;
+	}
+	.icon{
+		padding-right: none;
+	}
+
+	.section_both{
+		display: flex;
+		flex-direction: column-reverse;
+
+	}
+	.section_ham h2{
+		margin-left: 30px;
+		padding-top: 10px;
+	}
+	.cards{
+		display: block;
+	}
+	.card img{
+		width: 330px ;
+		height: 115px;
+		border-radius: 20px 20px 0px 0px;	
+		display: flex;
+		justify-content: center;
+		margin: auto;
+		padding-top: 3px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	.card{
+		display: block;
+		background-color:  white;
+		Width: 335px;
+		Height: 199px;
+		border-radius:20px;
+		margin: 30px;
+		line-height: 6px;
+		box-shadow:5px 5px 5px #d9d9d9;
+		
+	}
+
+	.card h3{
+		font-size: 16px;
+	}
+	.card_text{
+		margin-left: 7px;
+	}
+	.section_ham{
+		background-color: white;
+		Width: 100%;
+		Height:100%;
+	}
+	.section_lpp{
+		background-color: #f2f2f2;
+		Width: 100%;
+		height: 580px;
+		border-radius: 0px;
+		
+	}
+	.section_lpp h2{
+		margin-left: 30px;
+		margin-top: 20px;
+	}
+	.card_lpp{
+		display: flex;
+		background-color:  white;
+		Width: 344px;
+		Height: 144px;
+		border-radius:20px;
+		margin: 30px;
+		line-height: 6px;
+		box-shadow:5px 5px 5px #d9d9d9;
+	}
+	.card_lpp img{
+		width: 137px ;
+		height: 137px ;
+		border-radius: 20px 0px 0px 20px;
+		padding-left: 3px;
+		padding-top:  3px; 
+		padding-bottom: 3px;
+
+	}
+	.card_text_lpp h3{
+		font-size: 16px;
+		line-height: 19px;
+
+	}
+	.card_text_lpp{
+		margin-left: 19px;
+	}
+	.card_icon{
+		padding-top: 20px;
+	}	
+	.card_a{
+		background-color: white;
+		border-radius: 20px;
+		width: 334px;
+		height: 190px;
+		box-shadow:5px 5px 5px #d9d9d9;
+		margin-bottom: 30px;
+		
+	}
+	 .card_a img{
+		width: 334px;
+		height: 140px ;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+
+	 }
+	
+	 .cards_a{
+		display: block;
+		margin-bottom: 60px;
+		margin-left: 30px;
+	 }
+	
+	.cards_a h3{
+		padding-left: 10px;
+		margin-top: 10px;
+	}
+
+
+
+	footer {
+		background-color: #F2F2F2;
+		width: 100%;
+
+	}
+
+	.footercolumn{
+		display: flex;
+		max-width: 100%;
+		width: 768px;
+		padding-left: 2rem;
+		box-sizing: border-box;
+		flex-direction: column;
+		font-family: 'Raleway', sans-serif;
+		line-height: 18.78pt;
+}
+li{
+	list-style-type: none;
+}
+
+}
