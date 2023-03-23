@@ -76,17 +76,18 @@
 		font-size: 12px;
 	}
 
-	#research_input{
+	.research_input{
 		border: none;
 		height: 43px;
 		width: 120px;
 	}
-	#research{
+	.research{
 		display: flex;
 		height: 45px;
 		margin-top: 15px;
 	}
-	#button_research{
+	.button_research{
+		
 		background-color: #0065FC;
 		color: white;
 		font-weight: bold ;
@@ -95,7 +96,10 @@
 		border: none;
 		width: 8% ;
 	}
-	#icon{
+	.searchIcon{
+		display: none;
+	}
+	.iconR{
 		width: 45px;
 		display: flex;
 		align-items: center;
@@ -463,34 +467,7 @@ li{
 		margin-left: 45%;
 		margin-right: 45%;
 		height: 30px;
-	}
-	#research_input{
-		border: none;
-		height: 43px;
-		width: 120px;
-	}
-	#research{
-		display: flex;
-		height: 45px;
-		margin-top: 15px;
-	}
-	#button_research{
-		background-color: #0065FC;
-		color: white;
-		font-weight: bold ;
-		border-top-right-radius: 8px ;
-		border-bottom-right-radius: 8px ;
-		border: none;
-		width: 8% ;
-	}
-	#icon{
-		width: 45px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		border-radius: 8px 0 0 8px;
-		background-color: #F2F2F2;
-	}
+	}	
 	.navBar{
 		display: flex;
 		justify-content: flex-start;
@@ -508,6 +485,20 @@ li{
 	.link{
 		margin-bottom: 20px;
 	}
+	.rechercher{
+		display: none;
+	}
+	form{
+		width:335px;
+		height: 10px;
+		background-color: purple;
+		margin-right: 30px;
+	}
+	.searchIcon{
+		display: initial;
+	}
+	form
+
 	.buttons{
 		margin-left: 5px;
 		
