@@ -39,40 +39,46 @@
 
             <!---- PAGE PRINCIPALE-->
             <main>
+                <div class="top">
+            
 
-                <h1>Trouvez votre hébergement pour des vacances de rêve </h1>
-                <p>En plein centre ville ou en pleine nature</p>
+                    <h1>Trouvez votre hébergement pour des vacances de rêve </h1>
+                    <p>En plein centre ville ou en pleine nature</p>
 
-                <!---- NAVBAR DE RECHERCHE-->
-                <form class="research">
-                    <div class="iconR">
-                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    <!---- NAVBAR DE RECHERCHE-->
+                    <form class="research">
+                        <div class="iconR">
+                            <i class="fa-sharp fa-solid fa-location-dot loupe"></i>
+                        </div>
+
+                        <input  class="research_input " type="text"  placeholder="Marseilles,France" >
+                        <button class="button_research" type="submit">
+                            <div class="rechercher"> rechercher </div>
+                            <div class="searchIcon">
+                                <i class=" fas fa-search loupe" aria-hidden="true"></i>
+                            </div>
+                        </button>
+                    
+                    </form>
+                    <!---- NAVBAR DE RECHERCHE-->
+
+                    <!---- BOUTTON FILTRES-->
+                    <div class="filters">
+                        <h2>Filtres</h2>
+                            <div class="buttons">
+                                <a class="button  " href=""><i class="fa-solid fa-money-bill-wave icon"></i> economie</a>
+                                <a class="button " href=""><i class="fa-solid fa-person icon"></i> familial</a>
+                                <a class="button" href=""><i class="fa-solid fa-heart icon"></i> romanique</a>
+                                <a class="button " href=""><i class="fa-solid fa-dog icon"></i>animaux autorisés</a>
+                            </div>
                     </div>
-
-                    <input  class="research_input " type="text"  placeholder="Marseilles,France" >
-                    <button class="button_research" type="submit">
-                        <div class="rechercher"> rechercher </div>
-                        <div class="searchIcon">
-                            <i class=" fas fa-search loupe" aria-hidden="true"></i>
-                        </div>
-                    </button>
-                   
-                </form>
-                <!---- NAVBAR DE RECHERCHE-->
-
-                <!---- BOUTTON FILTRES-->
-                <div class="filters">
-                    <h2>Filtres</h2>
-                        <div class="buttons">
-                            <a class="button  " href=""><i class="fa-solid fa-money-bill-wave icon"></i> economie</a>
-                            <a class="button " href=""><i class="fa-solid fa-person icon"></i> familial</a>
-                            <a class="button" href=""><i class="fa-solid fa-heart icon"></i> romanique</a>
-                            <a class="button " href=""><i class="fa-solid fa-dog icon"></i>animaux autorisés</a>
-                        </div>
+                    <!---- BOUTTON FILTRES-->
+                    <div class="azer">
+                    
+                    <i class="fas fa-info  info "></i>Plus de 500 logements sont disponibles dans cette villes
+                    </div>
                 </div>
-                <!---- BOUTTON FILTRES-->
-                <i class="fa-solid fa-circle-info"></i>Plus de 500 logements sont disponibles dans cette villes
-                
+                    
                 
                 <!---- SECTION HAM + LPP -->        
                 <section class="section_both">
@@ -99,7 +105,7 @@
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star" data-active="false" aria-hidden="false"></i>
+                                            <i class="fa-solid fa-star  star5" ></i>
                                         </a>
                                         </div>
                                     </div>
@@ -121,7 +127,7 @@
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star star5"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -141,7 +147,7 @@
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star star5"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -160,6 +166,7 @@
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star star5"></i>
                                                 </a>
                                             </div>
                                     </div>
@@ -178,6 +185,7 @@
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star star5"></i>
                                                 </a>
                                             </div>
                                     </div>
@@ -196,6 +204,7 @@
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star star5"></i>
                                                 </a>
                                             </div>
                                     </div>
@@ -212,7 +221,9 @@
 
                     <!---- LES PLUS POPULAIRES -->
                     <div class="section_lpp">
-                        <h2>Les plus populaires</h2>
+                        <div class="stat">
+                        <h2>Les plus populaires </h2><i class="fa-solid fa-chart-line icon_stat"></i>
+                        </div>
                         
                         <div class="cards_lpp">
                             
@@ -230,7 +241,7 @@
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star" data-active="false" aria-hidden="false"></i>
+                                        <i class="fa-solid fa-star star5"></i> 
                                     </a>
                                     </div>
                                 </div>
@@ -250,7 +261,7 @@
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star" data-active="false" aria-hidden="false"></i>
+                                            <i class="fa-solid fa-star star5"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -269,7 +280,7 @@
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star" data-active="false" aria-hidden="false"></i>
+                                            <i class="fa-solid fa-star star5"></i>
                                             </a>
                                         </div>
                                     </div>
