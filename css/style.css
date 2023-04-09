@@ -41,9 +41,7 @@
 	.link:hover{
 		color: #0065FC;
 	}
-
-
-
+	
     .navBar{
 		width: 30%;
 		display: flex;
@@ -54,8 +52,6 @@
 		width: 50%;
 		justify-content: center;
 		align-items: end;
-
-
 
 	}
 	.navbarA{
@@ -68,6 +64,7 @@
 	.link{
 		margin-top: 40px;
 	}
+	
 	/*main*/
 	h1{
 		font-size: 19px;
@@ -112,6 +109,25 @@
 	.iconR i{
 		color: black;
 	}
+	.info{
+		width: 15px;
+		height: 15px;
+		border-radius: 10px;
+		border: solid grey 1px;
+		text-align: center;
+		font-size: 10px;
+	}
+	.azer{
+		display: flex;
+		flex-direction: row;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.azer i{
+		margin-right: 10px;
+	}
+
+	
 
 
 
@@ -341,9 +357,9 @@
 		display: flex;
 	}
 	.section_both{
-		display: block;
-		
-	
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 	.section_both h2{
 		padding-left: 20px;
@@ -482,40 +498,57 @@
 	.container{
 		margin: 0px;
 	}
+	.top{
+		margin-left: 15px;
+	}
 	.logo{
-		
-		margin-left: 45%;
-		margin-right: 45%;
+		margin-left: 156px;
+		margin-bottom: 10px;
 		height: 30px;
 	}
 	h1{
 		font-size: 25px;
 	}
-	.top{
-		margin-left: 8px;
-		margin-right: 8px;
-		margin-bottom: 20px;
-	}
+	
 		
 	.navBar{
 		display: flex;
 		justify-content: space-around;
+		align-items: center;
 		width: 100%;
 		margin-top: 10px;
 	}
+	.navbarA{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 50%;
+	}
+	.navbarH{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 50%;
+	}
+	
 	.navbarA:hover{
 		border-bottom: #0065FC 3px solid;
+		padding-bottom: 20px;
+		width: 187px ;
+		
+		
+		
 	}
 	.navbarH:hover{
 		border-bottom: #0065FC 3px solid;
-		
+		padding-bottom: 20px;
+		width: 187px ;	
 	}
 	.link:hover{
 		color: #0065FC ;
+		
 	}
-	.link{
-		padding-bottom: 20px;
-	}
+
 	.research{
 	 display: flex;
 	}
@@ -535,6 +568,7 @@
 		display: flex;
 		flex-direction: row;
 		margin-top: 20px;
+		margin-bottom: 15px;
 	}
 	.azer i{
 		margin-right: 10px;
@@ -588,10 +622,13 @@
 		color: black;
 		padding: 0.7rem;
 		font-size: 17px;
-		width: 165px;
-		line-height: 17px;
-		margin: 13px;
+		width: 145px;
+		line-height: 15px;
+		margin: 8px;
 		border-radius: 25px;
+	}
+	.button:hover{
+		background-color: #deebff;
 	}
 	.icon{
 		padding-right: none;
@@ -651,6 +688,17 @@
 		Width: 100%;
 		Height:100%;
 	}
+	h4{
+		margin-left: 20px;
+	}
+	.stat{
+		display: flex;
+		justify-content: space-between;
+	}
+	.icon_stat{
+		margin-right: 15px;
+		margin-top: 30px;
+	}
 	.section_lpp{
 		background-color: #f2f2f2;
 		Width: 100%;
@@ -658,11 +706,7 @@
 		border-radius: 0px;
 		
 	}
-	.stat{
-		display: flex;
-		justify-content: space-between;
-
-	}
+	
 	
 	.section_lpp h2{
 		margin-left: 30px;
