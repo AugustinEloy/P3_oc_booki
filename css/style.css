@@ -360,21 +360,32 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		align-items: center;
 	}
 	.section_both h2{
 		padding-left: 20px;
 		padding-top: 20px;
 		font-size: 22px;
 	}
+	.section_ham{
+		background-color: #f2f2f2;
+		Width: 924px;
+		Height:640px;
+		border-radius:20px;
+	}
 	.section_ham h4{
 		margin: 0px 0px 40px 40px
 	}
 	.section_lpp{
 		background-color: #f2f2f2;
-		Width: 883px;
-		height: 278px;
+		Width: 924px;
+		height: 270px;
 		border-radius:20px;
 		margin-top: 50px;
+	}
+	.icon_stat{
+		margin-right: 30px;
+
 	}
 	
 	.cards_lpp{
@@ -442,7 +453,14 @@
 	}
 	.star5{
 		color: #f2f2f2;
+	}
+	.activite h2{
+		margin-left: 35px ;
+		margin-bottom: 30px;
 	}	
+	.activite{
+		margin-top: 50px;
+	}
 	.cards_a{
 		display: flex;
 		flex-direction: row;
