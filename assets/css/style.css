@@ -4,13 +4,14 @@
 /* VERSION DESKTOP */
 /* Param : 1400px */
 
-@media (min-width:992px) and (max-width: 1400px) {
+@media (min-width:992px){
 
 	/*Header* joezefozepf*/
 	.container{
 		padding: 0 15px 0 15px;
 		margin-left: auto;
 		margin-right: auto;
+		
 		
 		
 	}
@@ -301,6 +302,9 @@
 		margin-top: 10px;
 
 	}
+	.activite{
+		margin-top: 50px;
+	}
 	.mainbackgroundcolor{
 		background-color: #F2F2F2;
 		width: 100%;
@@ -342,19 +346,142 @@
 /*Tablette*/
 
 
-@media (min-width:768px) and ( max-width:992px){
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
 	.container{
 		padding: 0 15px 0 15px;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	body{
+		font-family: 'Raleway', sans-serif;
+
 	}
 	.logo{
 		height: 20px;
 		margin-top: 10px;
 		margin-left: 20px;
 	}
+	h1{
+		font-size: 19px;
+	}
+	p{
+		font-size: 12px;
+	}
+	.research_input{
+		border: none;
+		height: 43px;
+		width: 160px;
+	}
+	.research{
+		display: flex;
+		height: 45px;
+		margin-top: 15px;
+		
+	}
+	.button_research{
+		
+		background-color: #0065FC;
+		color: white;
+		font-weight: bold ;
+		border-top-right-radius: 8px ;
+		border-bottom-right-radius: 8px ;
+		border: none;
+		width: 8% ;
+		width: 120px;
+	}
+	.searchIcon{
+		display: none;
+	}
+	.iconR{
+		width: 45px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 8px 0 0 8px;
+		background-color: #F2F2F2;
+	}
+	.iconR i{
+		color: black;
+	}
+	nav{
+		height: 74px;
+		display: flex;
+		justify-content: space-between ;
+		align-items: center;
+	}
+	.navbarH:hover{
+		border-top: #0065FC 3px solid;
+		
+	}
+	.navbarA:hover{
+		border-top: #0065FC 3px solid;
+	}
+	.link:hover{
+		color: #0065FC;
+	}
+	
+    .navBar{
+		width: 30%;
+		display: flex;
+		
+	}
+	.navbarH{
+		display: flex;
+		width: 50%;
+		justify-content: center;
+		align-items: end;
+
+	}
+	.navbarA{
+		display: flex;
+		width: 50%;
+		justify-content: center;
+		align-items: end;
+
+	}
+	.link{
+		margin-top: 40px;
+	}
 	.buttons{
 		display: flex;
+	}
+	.button{
+		background-color:rgba(255, 255, 255, 0);
+		border: 1px solid grey;
+		color: black;
+		padding: 0.7rem;
+		font-size: 17px;
+		font-weight: 700;
+		line-height: 17px;
+		text-decoration: none;
+		text-align: center;
+		display: flex;
+		margin: 13px;
+		border-radius: 25px;
+	}
+	.icon{
+		padding-right: 5px;
+	}
+	.button:hover{
+		background-color: #deebff;
+	}
+	.azer{
+		display: flex;
+		flex-direction: row;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	
+	}
+	.info{
+		width: 15px;
+		height: 15px;
+		border-radius: 10px;
+		border: solid grey 1px;
+		text-align: center;
+		font-size: 10px;
+	}
+	.azer i{
+		margin-right: 10px;
 	}
 	.section_both{
 		display: flex;
@@ -362,8 +489,13 @@
 		justify-content: center;
 		align-items: center;
 	}
-	.section_both h2{
-		padding-left: 20px;
+	.section_ham h2{
+		padding-left: 40px;
+		padding-top: 20px;
+		font-size: 22px;
+	}
+	.section_lpp h2{
+		padding-left: 40px;
 		padding-top: 20px;
 		font-size: 22px;
 	}
@@ -372,6 +504,16 @@
 		Width: 924px;
 		Height:640px;
 		border-radius:20px;
+	}
+	.cards{
+		display: flex;
+		justify-content: space-around;
+	}
+	.card h3{
+		font-size: 16px;
+	}
+	.card_text{
+		margin-left: 7px;
 	}
 	.section_ham h4{
 		margin: 0px 0px 40px 40px
@@ -383,9 +525,13 @@
 		border-radius:20px;
 		margin-top: 50px;
 	}
+	.stat{
+		display: flex;
+		justify-content: space-between;
+	}
 	.icon_stat{
-		margin-right: 30px;
-
+		margin-right: 15px;
+		margin-top: 40px;
 	}
 	
 	.cards_lpp{
@@ -396,7 +542,7 @@
 	.card_lpp{
 		display: flex;
 		background-color:  white;
-		Width: 252px;
+		Width: 270px;
 		Height: 144px;
 		border-radius:20px;
 		margin: 10px;
@@ -413,7 +559,7 @@
 
 	}
 	.card_text_lpp h3{
-		font-size: 16px;
+		font-size: 15px;
 		line-height: 19px;
 
 	}
@@ -460,10 +606,13 @@
 	}	
 	.activite{
 		margin-top: 50px;
+		margin-bottom: 50px;
 	}
 	.cards_a{
 		display: flex;
 		flex-direction: row;
+		justify-content: space-around;
+		margin-bottom: 30px;
 	}
 	.card_a{
 		background-color: white;
@@ -480,7 +629,8 @@
 
 	 }
 	 .card_a h3{
-		font-size: 15px;
+		font-size: 13px;
+		margin-left: 14px;
 	 }
 
 	footer {
@@ -504,6 +654,13 @@
 	li{
 		list-style-type: none;
 	}
+	a{
+		text-decoration: none;
+		color:black
+	}
+	i{
+		color: #0065FC;
+	}
 
 }
 
@@ -511,7 +668,10 @@
 
 /*telephone*/
 
-@media (max-width:768px){
+@media only screen 
+  and (min-device-width: 300px) 
+  and (max-device-width: 896px) 
+  {
 
 	.container{
 		margin: 0px;
@@ -640,10 +800,13 @@
 		color: black;
 		padding: 0.7rem;
 		font-size: 17px;
-		width: 145px;
+		width: 105px;
 		line-height: 15px;
 		margin: 8px;
 		border-radius: 25px;
+	}
+	.button i {
+		font-size: 13px;
 	}
 	.button:hover{
 		background-color: #deebff;
@@ -656,6 +819,11 @@
 		display: flex;
 		flex-direction: column-reverse;
 
+	}
+	.section_both h2{
+		padding-left: 20px;
+		padding-top: 20px;
+		font-size: 22px;
 	}
 	
 	.section_ham h2{
@@ -795,7 +963,9 @@
 		padding-left: 10px;
 		margin-top: 10px;
 	}
-
+	.activite{
+		margin-top: 50px;
+	}
 
 
 	footer {
