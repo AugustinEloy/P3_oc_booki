@@ -668,9 +668,10 @@
 
 /*telephone*/
 
+
 @media only screen 
-  and (min-device-width: 300px) 
-  and (max-device-width: 896px) 
+  and (min-device-width: 1px) 
+  and (max-device-width: 768px) 
   {
 
 	.container{
