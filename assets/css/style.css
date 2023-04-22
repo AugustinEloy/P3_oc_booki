@@ -11,9 +11,6 @@
 		padding: 0 15px 0 15px;
 		margin-left: auto;
 		margin-right: auto;
-		
-		
-		
 	}
 	body{
 		font-family: 'Raleway', sans-serif;
@@ -670,8 +667,8 @@
 
 
 @media only screen 
-  and (min-device-width: 1px) 
-  and (max-device-width: 768px) 
+  and (min-width: 1px) 
+  and (max-width: 768px) 
   {
 
 	.container{
@@ -681,8 +678,10 @@
 		margin-left: 15px;
 	}
 	.logo{
-		margin-left: 156px;
-		margin-bottom: 10px;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 40px;
 		height: 30px;
 	}
 	h1{
@@ -812,9 +811,7 @@
 	.button:hover{
 		background-color: #deebff;
 	}
-	.icon{
-		padding-right: none;
-	}
+	
 
 	.section_both{
 		display: flex;
