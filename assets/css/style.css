@@ -955,14 +955,15 @@
 	.card_a{
 		background-color: white;
 		border-radius: 20px;
-		width: 334px;
+		width: 90%;
+		margin: auto;
 		height: 190px;
 		box-shadow:5px 5px 5px #d9d9d9;
 		margin-bottom: 30px;
 		
 	}
 	 .card_a img{
-		width: 334px;
+		width: 98%;
 		height: 140px ;
 		border-top-left-radius: 20px;
 		border-top-right-radius: 20px;
@@ -972,11 +973,11 @@
 	 .cards_a{
 		display:flex;
 		flex-direction: column;
-		align-items: center;
+		
 	}
 	
 	.cards_a h3{
-		padding-left: 10px;
+		padding-left: 17px;
 		margin-top: 10px;
 	}
 	.activite h2{
